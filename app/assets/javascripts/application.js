@@ -11,7 +11,15 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.countdown
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function(){
+  var lastDay = new Date(2021, 0, 20, 11, 0, 0);
+  var timeNow = new Date();
+  $('#time').text(lastDay.toDateString());
+  $('#time-remaining').countdown({until: lastDay, format: 'YODHMS'});
+});
