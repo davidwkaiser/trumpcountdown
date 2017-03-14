@@ -12,4 +12,4 @@ Then i committed the results to git and github
 before deploying to Heroku.
 Now it works!
 
-OK it seems to be working wihtout pre-compile
+OK it seems to be working without pre-compile
