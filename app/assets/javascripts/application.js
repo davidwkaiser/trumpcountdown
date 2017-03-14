@@ -21,6 +21,6 @@
 $(function(){
   var lastDay = new Date(2021, 0, 20, 11, 0, 0);
   var timeNow = new Date();
-  $('#time').text(lastDay.toDateString());
+  $('#time').html("<h4>"+lastDay.toDateString()+"</h4>");
   $('#time-remaining').countdown({until: lastDay, format: 'YODHMS'});
 });

@@ -14,3 +14,20 @@
  */
 
 @import "bootstrap";
+
+
+body{
+
+}
+
+body::after {
+  content: "";
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXLCE-YVnJ57acVegj33iUL-71Vky9SbaNtEdT8VgfMsh5Df-s");
+  opacity: 0.20;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
