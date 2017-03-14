@@ -11,3 +11,5 @@ RAILS_ENV=production bundle exec rake assets:precompile
 Then i committed the results to git and github
 before deploying to Heroku.
 Now it works!
+
+OK it seems to be working wihtout pre-compile
