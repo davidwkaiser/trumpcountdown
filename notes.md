@@ -12,4 +12,11 @@ Then i committed the results to git and github
 before deploying to Heroku.
 Now it works!
 
-OK it seems to be working wihtout pre-compile
+Got it, here is the plan:
+1> push to github, merge, checkout master, pull
+2> run precompile
+3> git add.
+4> git commit -m "precompile"
+5> git push heroku master
+
+Now it sticks!
