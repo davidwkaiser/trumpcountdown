@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a silly app I created just to get practice with Ruby and JavaScript. 
 
-Things you may want to cover:
+I wanted to implement a countdown in JavaScript, it turns out there is a library for that
 
-* Ruby version
+So I researched it and implemented it. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I don't much like the CSS, but it'll do for now. 
