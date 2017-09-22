@@ -10,7 +10,7 @@ I don't much like the CSS, but it'll do for now.
 
 You can see it deployed HERE:   
 
-https://dry-meadow-22985.herokuapp.com/
+http://trumpcountdown.herokuapp.com/
 
 
 I am a graduate of Dev Bootcamp, I'm looking for my first dev job.   
